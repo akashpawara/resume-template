@@ -1,0 +1,300 @@
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "en"
+title = "Akash's Resume"
+theme = "resumeTemplate"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "Akash"
+    description = "Resume Template for Developers"
+
+
+    primaryColor = "#00cccc"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Akash Pawara"
+        tagline = "Web Developer | Web Designer | SDE"
+        avatar = "avatar.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Mumbai"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+91 7506 0218 98"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "akashpawara29@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "https://akashpawara.com"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "JavaScript/Angular/React/Vue"
+        [[params.skills.list.items]]
+        details = "Gatsby/Hugo/Vuetify"
+        [[params.skills.list.items]]
+        details = "Python/GO/Ruby/PHP"
+        [[params.skills.list.items]]
+        details = "Node.js/Laravel"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL/NoSQL"
+        [[params.skills.list.items]]
+        details = "Object-oriented design"
+        [[params.skills.list.items]]
+        details = "Design and implement database structures"
+        [[params.skills.list.items]]
+        details = "Lead and deliver complex software systems"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Bachelor in Computer Engineering"
+        university = "VIdyalankar Institute of Technology"
+        dates = "2017 - 2020"
+        gpa = "CGPA - 6.3"
+        [[params.education.list]]
+        degree = "Diploma in Computer Technology"
+        university = "Vivekanand Education Society of Polytechnic"
+        dates = "2015 - 2017"
+        gpa = "Percentage - 65%"
+
+
+
+
+
+
+
+
+    [params.achievements]
+        enable = true
+
+        [[params.achievements.list]]
+        name = "Smart India hackathon 2020 Winner (Hardware Edition)"
+        body = ""
+        date = "2021"
+        [[params.achievements.list]]
+        name = "Smart India Hackathon 2019 Winner (Software Edition)"
+        body = ""
+        date = "2019"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Hindi"
+        level = "Native"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Bike Riding"
+        [[params.interests.list]]
+        name = "Light Novel"
+        [[params.interests.list]]
+        name = "Trecking"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Seeking a Web Developer / JavaScript Developer / Web Designer position that provide ample opportunities to learn and to contribute."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Web Developer"
+        dates = "2019 - 2020"
+        company = "University of Mumbai - Health Center"
+        details = "Developed a full stack web platform for 'Health clinic' of University of Mumbai which digitizes the workflow of a health clinic. It consist of Doctor's as well as Receptionist's panel which constructs the flow of a patient's admit & discharge process, preserving medical history & prescriptions, generating reports based on gender, Diabetes & Hepatitis B. Developed using Node.js, Express.js, Socket.io, EJS, MySQL. Built Extensive REST APIs using Express.js, stateless JWT for Authentication."
+
+        [[params.experience.list]]
+        title = "Python Developer"
+        dates = "2018 - 2018"
+        company = "Eduvance"
+        details = "Developed python scripts for tracking Inventory, storing or retrieving data from excel sheets. Developed a web scrapper, phone book software using python. Developed a SMTP session to verify users"
+
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Mowe - Motion over web editor (01/2021 - Present)"
+        meta = "Open Source"
+        tagline = "A web based 2d motion designing tool with user collaboration feature."
+
+        [[params.projects.list]]
+        title = "Early Detection of Diabetic Retinopathy and Classification into stages (07/2019 - 04/2020)"
+        meta = "BE Project"
+        tagline = "Used CNN to build an application to detect and classify into respective stages of Retinopathy."
+
+        [[params.projects.list]]
+        title = "Crowd Scope (02/2020 - 05/2020)"
+        meta = "SIH 2020"
+        tagline = "Full stack application for determining and predicting crowd density in various parts of India."
+
+        [[params.projects.list]]
+        title = "Academic Suite (01/2020 - 03/2020)"
+        meta = "Open Source"
+        tagline = "Full stack system to maintain and preview records of attendance, academic marks, academic achievements, etc."
+
+        [[params.projects.list]]
+        title = "kangaroo.io (01/2020 - 03/2020)"
+        meta = "SIH 2020"
+        tagline = "A service to ensure data transmitted from one hierarchical level to other as soon as proper connection is established between the two levels."
+
+        [[params.projects.list]]
+        title = "Whatsapp Chrome Extension (06/2020 - 07/2020)"
+        meta = "Open Source"
+        tagline = "An extension bot to send bulk messages to various contacts."
+
+
+
+
+
+
+
+
+
+
+    [params.responsibilities]
+        enable = true
+
+        [[params.responsibilities.list]]
+        title = "Organized 'Error 303 minutes of code' Hackathon (07/2019 - 07/2019)"
+        [[params.responsibilities.list.items]]
+        details = "In Collaboration with Bits Mahindra Finance"
+        [[params.responsibilities.list]]
+        title = "Webmaster / Documentation head / V-press head (06/2018 - 07/2019)"
+        [[params.responsibilities.list.items]]
+        details = "Student Council, Vidyalanakar Institute of Technology"
+        [[params.responsibilities.list]]
+        title = "Logistics head / Operations head (08/2017 - 04/2018)"
+        [[params.responsibilities.list.items]]
+        details = "Student Council, Vidyalanakar Institute of Technology"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/akashpawara"
+        title = "akashpawara"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/akashpawara"
+        title = "akashpawara"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/akash_pawara_"
+        title = "@akash_pawara_"
+        [[params.social.list]]
+        icon = "fab fa-instagram"
+        url = "//instagram.com/akash_pawara_"
+        title = "akash_pawara_"
+
+
+
+
+

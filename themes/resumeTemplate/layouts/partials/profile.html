@@ -1,0 +1,22 @@
+
+                        <div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
+                            <div class="media flex-column flex-md-row align-items-center">
+
+                                {{ if .Site.Params.profile.avatar }}
+                                <img class="resume-profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" src="{{ .Site.BaseURL }}assets/images/{{ .Site.Params.profile.avatar }}" alt="image">
+                                {{ end }}
+        
+                                <div class="media-body text-left">
+                                    <!-- <div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9"> -->
+                                        <h2 class="resume-name mb-0 text-uppercase">{{ .Site.Params.profile.name }}</h2>
+                                        <div class="resume-tagline mb-3 mb-md-0">{{ .Site.Params.profile.tagline }}</div>
+                                        <p class="mb-0">{{ .Site.Params.summary.text | markdownify }}</p>
+                                    <!-- </div>  -->
+                                    <!-- //resume-title -->
+                                    <!-- <br> -->
+                                    
+                                </div><!--//media-body-->
+        
+                            </div>
+
+                        </div><!--//resume-title-->

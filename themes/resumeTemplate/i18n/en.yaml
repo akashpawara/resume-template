@@ -1,0 +1,16 @@
+- id: achievments
+  translation: Achievments
+- id: education
+  translation: Education
+- id: experiences
+  translation: Work Experience
+- id: responsibilities
+  translation: Position of Responsibilities
+- id: interests
+  translation: Interests
+- id: languages
+  translation: Languages
+- id: projects
+  translation: Personal Projects
+- id: skills
+  translation: Skills

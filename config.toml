@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://akashpawara-resume.netlify.app/"
+baseURL = "https://resume.akashpawara.com/"
 languageCode = "en"
 title = "Akash's Resume"
 theme = "resumeTemplate"
